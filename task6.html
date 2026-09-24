@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1><br><br>
+
+    <label for="fullname">FullName :</label>
+    <input type="text" id="fullname" name="fullname" placeholder="enter your name" required>
+    <br><br>
+    <label for="email"> Email :</label>
+    <input type="email" id="email" name="email" placeholder="enter your email">
+    <br><br>
+    <label for="password">Password :</label>
+    <input type="password"  id="password" name="password" placeholder="enter  your password">
+    <br><br>
+    <label >Gender :</label>
+    <label for="male">Male</label>  
+    <input type="radio" id="male" name="gender"value="Male"> 
+    <label for="female">Female</label> 
+    <input type="radio" id="female" name="gender" value="Female"> 
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="Other"> 
+     <br><br>
+    <label > Interests:</label>
+    <label for="dancing">Dancing</label>
+    <input type="checkbox" id="dancing" name="interest" value="Dancing">
+    <label for="reading"> Reading</label>
+    <input type="checkbox" id="reading" name="interest" value="Reading">
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="sports" name="interest" value="Sports">
+    <br><br>
+    <label for="department">Department:</label>
+
+    <Select id="department" name="department">
+        <option value=""> Select Department:</option> 
+        <option value="software">Software Engineering</option>
+        <option value="computer">Computer Engineering</option>
+        <option value="business">Business Studies</option>
+        <option value="bbm">BBM</option>
+
+    </Select>
+
+    <br><br>
+    <lable for="about">About You:</lable>
+    <textarea id="about" name="about"
+    placeholder="tell us about yourself" 
+    col="10" row="40"></textarea>
+    <br><br>
+    
+    <input type="Submit" value="Submit">
+
+
+
+</body>
+
+</html>
